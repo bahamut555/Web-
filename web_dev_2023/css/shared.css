@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-image: url("../img/aikatsu-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+
+}
+
+h1{
+    font-family: 'Bruno Ace', cursive;
+      color: #FF0000;
+
+}
+
+p{
+     font-family: sans-serif;
+      color: rgb(72, 108, 163);
+
+}
+a{
+       
+        text-decoration: none;
+}
+a:hover {
+             text-decoration: underline;
+
+}
+
