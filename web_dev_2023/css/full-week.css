@@ -1,11 +1,15 @@
 h1 {
     font-size: 60px;
+    color: rgb(71, 62, 62);
+    margin: 12px;
 
 }
 
 a {
+    padding: 12px;
     background-color:  rgb(167, 1, 78);
     color: white;
+    border: 1px solid rgb(167, 1, 78);
     border-radius: 4px;
     font-size: 24px;
     
@@ -21,6 +25,7 @@ a:hover{
 ol {
     list-style: none;
     color: rgb(99, 47, 194);
+    width: 500px;
 
 }
 
