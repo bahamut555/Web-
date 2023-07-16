@@ -27,24 +27,60 @@ main {
     color: rgb(248, 241, 255);
 }
 
-ul{
+a {
+    text-decoration: none;
+    color: rgb(36, 3, 192);
+    background-color: rgb(255, 237, 177);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+a:hover, 
+a:active {
+    background-color: rgb(250, 201, 39);
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: rgb(131, 113, 149);
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+
+footer a {
+    padding: 12px 18px;
+    border-radius: 30px;
+    background-color: rgb(247, 209, 85);
+    color:black;
+}
+
+footer a:hover, 
+footer a:active {
+    background-color: rgb(255, 186, 58);
+}
+
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-li{
+li {
     margin: 14px 0;
     padding-left: 10px;
     border-left: 5px solid transparent;
 }
 
-.extra-important{
+.extra-important {
     color: rgb(255, 237, 177);
     border-color: rgb(247, 209, 85);
     /*border-left: 5px solid rgb(247, 209, 85);*/
 }
 
-.highlight{
+.highlight {
     font-weight: bold;
 }
